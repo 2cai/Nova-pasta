@@ -4,6 +4,7 @@ from ib_insync import IB, Stock, util
 import time
 import os
 
+
 class DataHandler:
     def __init__(self, ib_host="127.0.0.1", ib_port=7497, client_id=1):
         self.ib = IB()
